@@ -22,8 +22,10 @@
 
 ### cheat sheet 
 * [html](https://websitesetup.org/wp-content/uploads/2019/08/HTML-CHEAT-SHEET.png)
-* [javascript](https://github.com/mbeaudru/modern-js-cheatsheet/blob/master/translations/zh-CN.md)
-* [javascript 2](https://websitesetup.org/wp-content/uploads/2020/09/Javascript-Cheat-Sheet.pdf)
+* javascript
+  * [modern-js-cheatsheet javascript](https://github.com/mbeaudru/modern-js-cheatsheet/blob/master/translations/zh-CN.md)
+  * [websitesetup javascript](https://websitesetup.org/wp-content/uploads/2020/09/Javascript-Cheat-Sheet.pdf)
+  * [codecademy javascript](https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction/cheatsheet)
 * [she codes](http://cheatsheets.shecodes.io/)
   *  [html](http://cheatsheets.shecodes.io/html)
   *  [css](http://cheatsheets.shecodes.io/css)
