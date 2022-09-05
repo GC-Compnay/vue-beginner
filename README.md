@@ -22,7 +22,7 @@
 
 ### cheat sheet 
 * html
-  * [html](https://websitesetup.org/wp-content/uploads/2019/08/HTML-CHEAT-SHEET.png)
+  * [html](https://websitesetup.org/wp-content/uploads/2019/08/HTML-CHEAT-SHEET.png) [pdf](https://websitesetup.org/html5-cheat-sheet/)
   * [html5-tag-cheat-sheet](https://websitesetup.org/wp-content/uploads/2019/11/html5-tag-cheat-sheet-2019.pdf)
 * javascript
   * [modern-js-cheatsheet javascript](https://github.com/mbeaudru/modern-js-cheatsheet/blob/master/translations/zh-CN.md)
