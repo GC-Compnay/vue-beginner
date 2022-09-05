@@ -7,6 +7,7 @@
 
 * [codepen](https://codepen.io/trending)
 * [w3schools](https://www.w3schools.com/)
+* [mozilla](https://developer.mozilla.org/zh-CN/)
 
 ### Vue
 * [official](https://cn.vuejs.org/)
