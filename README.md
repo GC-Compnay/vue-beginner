@@ -18,3 +18,12 @@
 * [official](https://zh-hans.reactjs.org/)
 * [lib](https://react.parts/)
     * ...
+
+
+### cheat sheet 
+* [html](https://websitesetup.org/wp-content/uploads/2019/08/HTML-CHEAT-SHEET.png)
+* [javascript](https://github.com/mbeaudru/modern-js-cheatsheet/blob/master/translations/zh-CN.md)
+* [she codes](http://cheatsheets.shecodes.io/)
+  *  [html](http://cheatsheets.shecodes.io/html)
+  *  [css](http://cheatsheets.shecodes.io/css)
+  *  [javascript](http://cheatsheets.shecodes.io/javascript)
