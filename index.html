@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/vue@next"></script>
+
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=5,minimum-scale=1,viewport-fit=cover"
+      class="jsx-774929315"
+    />
+   
+    
+<link rel="preload" href="https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/css/e83abe3d875bf51c0a07.css" as="style" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/css/e83abe3d875bf51c0a07.css" crossorigin="anonymous" data-n-g=""/>
+<link rel="preload" href="https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/css/5ad6027659047c9edd89.css" as="style" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/css/5ad6027659047c9edd89.css" crossorigin="anonymous" data-n-p=""/>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app" >
+      <ul class="tw-grid tw-grid-cols-40 tw-gap-x-12 tw-gap-y-30 tw-min-h-380">
+        <li v-for="item in car_list"  class="tw-col-span-13 md:tw-col-span-10 xl:tw-col-span-8" style="height: 100px,width=100px;">
+          <a
+            class="tw-block tw-w-full tw-font-PingFangSC hover:tw-shadow-md usedcar-card_card__3vUrx"
+            href="/usedcar/3658561"
+            target="_blank"
+            rel="opener"
+            ><div class="tw-relative">
+              <div
+                class="tw-rounded-t-2"
+                style="
+                  display: block;
+                  overflow: hidden;
+                  position: relative;
+                  z-index: 0;
+                "
+              >
+                <div
+                  style="
+                    display: block;
+                    box-sizing: border-box;
+                    padding-top: 66.6667%;
+                  "
+                ></div>
+                <img
+                  v-bind:src="item.image"
+                  alt="二手Vantage 2007款 4.3 Sportshift Coupe"
+                  width="300"
+                  height="200"
+                  class="zoom"
+                  style="
+                    position: absolute;
+                    inset: 0px;
+                    box-sizing: border-box;
+                    padding: 0px;
+                    border: none;
+                    margin: auto;
+                    display: block;
+                    width: 0px;
+                    height: 0px;
+                    min-width: 100%;
+                    max-width: 100%;
+                    min-height: 100%;
+                    max-height: 100%;
+                    object-fit: cover;
+                  "
+                />
+              </div>
+            </div>
+            <dl class="tw-bg-white tw-p-12 tw-rounded-b-2 tw-h-146">
+              <dt
+                class="tw-font-semibold tw-text-18 tw-leading-24 xl:tw-text-18 xl:tw-leading-28"
+              >
+                <p title="Vantage 2007款 4.3 Sportshift Coupe" class="line-1">
+                    {{item.title}}
+                </p>
+              </dt>
+              <dd
+                class="tw-mt-4 tw-text-color-gray-800 tw-text-12 tw-leading-18 xl:tw-text-14 xl:tw-leading-28 font-pORE5nVm2QTpLQtk font-G28BNCvDx6IvixLE"
+              >
+                 |  | 深圳
+              </dd>
+              <dd
+                class="tw-mt-4 tw-flex tw-flex-wrap tw-justify-left tw-items-center tw-text-12 tw-leading-16 xl:tw-leading-18 tw-h-20 xl:tw-h-22 tw-overflow-hidden"
+              >
+                <span
+                  class="tw-flex tw-items-center tw-px-4 tw-py-2 tw-mr-6 tw-text-12 tw-leading-16 xl:tw-leading-18 tw-rounded-2 tw-bg-opacity-10 tw-whitespace-nowrap font-pORE5nVm2QTpLQtk font-G28BNCvDx6IvixLE"
+                  style="
+                    color: rgb(31, 33, 41);
+                    background-color: rgb(242, 244, 250);
+                  "
+                  >过户3次</span
+                >
+              </dd>
+              <dd
+                class="tw-mt-12 tw-font-bold tw-text-18 tw-leading-28 xl:tw-text-20 xl:tw-leading-32 tw-text-color-red-500 font-pORE5nVm2QTpLQtk font-G28BNCvDx6IvixLE"
+              >
+                .<span
+                  class="tw-ml-4 tw-font-normal tw-text-12 tw-leading-18 xl:tw-text-14 xl:tw-leading-20 tw-text-color-gray-800 font-pORE5nVm2QTpLQtk font-G28BNCvDx6IvixLE"
+                  >新车指导价: .</span
+                >
+              </dd>
+            </dl></a
+          >
+        </li>
+      </ul>
+    </div>
+  </body>
+  <script>
+    const app = {
+      data() {
+        return { car_list: [] };
+      },
+      mounted() {
+        axios
+          .get(
+            "https://raw.githubusercontent.com/bing-deng/Demo/master/dcd.json"
+          )
+          .then((response) => {
+            this.car_list = response.data;
+            console.log(this.car_list[0]);
+          })
+          .catch(function (error) {
+            console.log(error);
+          });
+      },
+    };
+    Vue.createApp(app).mount("#app");
+  </script>
+</html>
+
+<!-- 
+
+var list = []
+
+Array.from( document.getElementsByClassName("tw-block tw-w-full tw-font-PingFangSC hover:tw-shadow-md usedcar-card_card__3vUrx ")).forEach(item=>{ 
+	var car = {}
+	car["title"] = item.querySelector("p").innerHTML
+	car["image"] = item.querySelector("img").src
+	list.push(car)
+})
+
+console.log(JSON.stringify(list)) -->
