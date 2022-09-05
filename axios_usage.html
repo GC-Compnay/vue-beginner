@@ -1,0 +1,41 @@
+<html>
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <body>
+
+        <div id="app"><button @click="greet">
+            click me
+        </button>
+       <div>
+        <li>{{info.company_name_origin}}</li>
+        <li>{{info.description}}</li>
+        <li>{{info.industry_kbn_name}}</li>
+        <li>{{info.president_name}}</li>
+        <li>{{info.capital}}</li>
+       </div>
+    </div>
+    </body>
+
+<script>
+    const app = {
+        data () {
+            return {name:"dengbingbing",info:""}
+        },
+        mounted(){
+            axios.get("https://raw.githubusercontent.com/bing-deng/Demo/master/pr_com.json")
+            .then(response => (this.info = response.data))
+            .catch(error => console.error(error))
+        },
+        methods: {
+            greet(event){
+                alert("hello:"+this.name)
+                if(event){
+                    alert(event.target.tagName)
+                }
+            }
+        }
+    }
+    Vue.createApp(app).mount("#app")
+</script>
+
+</html>
