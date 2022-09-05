@@ -21,7 +21,9 @@
 
 
 ### cheat sheet 
-* [html](https://websitesetup.org/wp-content/uploads/2019/08/HTML-CHEAT-SHEET.png)
+* html
+  * [html](https://websitesetup.org/wp-content/uploads/2019/08/HTML-CHEAT-SHEET.png)
+  * [html5-tag-cheat-sheet](https://websitesetup.org/wp-content/uploads/2019/11/html5-tag-cheat-sheet-2019.pdf)
 * javascript
   * [modern-js-cheatsheet javascript](https://github.com/mbeaudru/modern-js-cheatsheet/blob/master/translations/zh-CN.md)
   * [websitesetup javascript](https://websitesetup.org/wp-content/uploads/2020/09/Javascript-Cheat-Sheet.pdf)
@@ -30,3 +32,5 @@
   *  [html](http://cheatsheets.shecodes.io/html)
   *  [css](http://cheatsheets.shecodes.io/css)
   *  [javascript](http://cheatsheets.shecodes.io/javascript)
+* css 
+  *  [CSS CHEAT-SHEET](https://websitesetup.org/wp-content/uploads/2019/08/CSS-CHEAT-SHEET-2019.zip)
